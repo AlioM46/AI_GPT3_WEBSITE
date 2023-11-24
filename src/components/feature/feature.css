@@ -1,0 +1,48 @@
+.feature {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin: 1rem;
+  font-family: var(--font-family);
+}
+
+.feature__title {
+  flex: 1;
+  max-width: 180px;
+  margin-right: 2rem;
+}
+.feature__title h1 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
+.feature__title h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -12px;
+  width: 40px;
+  height: 3.5px;
+  background-image: var(--gradient-text);
+}
+
+.feature__text {
+  flex: 2;
+  max-width: 390px;
+  display: flex;
+}
+.feature__text p {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px; /* 187.5% */
+}
+
+@media screen and (max-width: 1050px) {
+}

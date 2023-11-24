@@ -1,0 +1,134 @@
+.footer {
+  background: var(--color-footer);
+  font-family: var(--font-family);
+  width: 100%;
+  position: relative;
+}
+
+.footer > p {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+.footer__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.footer__text h1 {
+  text-align: center;
+  font-family: Manrope;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 120.968% */
+  letter-spacing: -2.48px;
+}
+
+.footer__text button {
+  color: #fff;
+  font-style: normal;
+  line-height: normal;
+  background: transparent;
+  border: 1px solid white;
+  width: clamp(180px, 10%, 200px);
+  height: clamp(60px, 4vh, 75px);
+  padding: 0 2px;
+  margin-top: 20px;
+  transition: 0.3s background-color;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.footer__text button:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.footer__grid {
+  display: grid;
+  margin-top: 100px;
+  grid-template-columns: repeat(5, 1fr);
+  color: white;
+}
+.footer__grid > div:first-child {
+  grid-column: 1/3;
+  width: 50%;
+}
+.footer__grid > div:first-child h1 {
+  font-size: 40px;
+}
+.footer__grid > div:first-child p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.footer__grid > div {
+  display: flex;
+  flex-direction: column;
+}
+.footer__grid > div p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.footer__grid > div span {
+  margin-bottom: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer__grid > div:first-child {
+    grid-column: 1/2;
+    width: 100%;
+  }
+  .footer__grid > div:first-child p {
+    font-size: 12px;
+    margin-right: 1.5rem;
+  }
+  .footer__grid > div:first-child h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-items: center;
+    align-items: flex-start;
+  }
+
+  .footer__grid > div:first-child {
+    order: 1;
+  }
+  .footer__grid > div:last-child {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .footer__grid > div:first-child {
+    order: 3;
+  }
+  .footer__grid > div:first-child p {
+    margin: 10px 0 0 0;
+  }
+}

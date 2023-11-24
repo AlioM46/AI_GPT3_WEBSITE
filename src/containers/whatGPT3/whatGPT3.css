@@ -1,0 +1,115 @@
+.whatgpt3 {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: var(--font-family);
+}
+
+.whatgpt3__heading .feature .feature__text {
+  max-width: 70%;
+}
+
+.whatgpt3__explore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 80px 0;
+}
+.whatgpt3__explore p {
+  color: #ff8a71;
+  cursor: pointer;
+  transition: 0.3s color;
+  font-weight: 500;
+}
+
+.whatgpt3__explore p:hover {
+  color: #d74322;
+}
+
+.whatgpt3__explore h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.whatgpt3__container {
+  display: flex;
+  grid-template-columns: repeat(3, 33%);
+}
+/* 1050px => Delete Cols  */
+
+.whatgpt3__container > div {
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 1050px) {
+  .whatgpt3__container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .whatgpt3__container > div {
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .whatgpt3__explore {
+    position: relative;
+    margin-top: 40px;
+  }
+  .whatgpt3__explore p {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+  }
+
+  .whatgpt3__heading .feature {
+    flex-direction: column;
+  }
+  .whatgpt3__heading .feature .feature__text p {
+    line-height: 26px;
+    margin-top: 5px;
+  }
+}
