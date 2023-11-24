@@ -23,7 +23,7 @@ const textsAndTitles = [
 
 const Features = () => {
   return (
-    <div className="features section__padding ">
+    <div className="features section__padding " id="features">
       <div className="features__overlay"></div>
       <div className="features__text">
         <h1 className="gradient__text">

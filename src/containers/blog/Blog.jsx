@@ -57,7 +57,7 @@ const dateFormat = (date) => {
 
 const Blog = () => {
   return (
-    <div className="blog section__padding ">
+    <div className="blog section__padding " id="blog">
       <h1 className="gradient__text">
         A lot is happening, We are blogging about it.
       </h1>

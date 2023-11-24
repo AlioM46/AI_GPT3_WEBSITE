@@ -31,7 +31,14 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="logo" title="GPT-3" />
+          <img
+            src={logo}
+            alt="logo"
+            title="GPT-3"
+            onClick={() => {
+              location.hash = "home";
+            }}
+          />
         </div>
         <div className="gpt3__navbar-links_container">{<Menu />}</div>
       </div>

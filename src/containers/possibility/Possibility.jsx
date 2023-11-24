@@ -4,7 +4,10 @@ import "./possibility.css";
 
 const Possibility = () => {
   return (
-    <div className="possibility section__margin section__padding">
+    <div
+      className="possibility section__margin section__padding"
+      id="possibility"
+    >
       <div className="possibility__image">
         <img
           src={possibilityImage}
