@@ -1,5 +1,39 @@
-# React + Vite
+![image](https://github.com/AlioM46/AI_GPT3_WEBSITE/assets/139516637/81210799-16de-45d9-a943-315f0c138cf5)# AI_GPT_FRONT_END_ONLY Website
 
-❤️
-## Hello, I'm Ali I built this project using this figma design  => https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A49&mode=dev
-  
+Welcome to the AI_GPT_FRONT_END_ONLY website repository! This project is a static website built for the AI_GPT application with a focus on the frontend. The website provides a user interface for interacting with the AI_GPT model.
+
+## Website URL
+
+The website is hosted at: [AI_GPT_FRONT_END_ONLY Website](https://ubiquitous-torte-7f8e0a.netlify.app/)
+
+## Overview
+
+This static website serves as the user interface for the AI_GPT application. It provides a straightforward experience for users to interact with the AI_GPT model.
+
+## Features
+
+- **User Interface:** Simple and intuitive design.
+- **Interactivity:** Users can input text and receive AI_GPT-generated responses.
+
+## Technologies Used
+
+- **REACT:** The structure of the website.
+- **CSS:** Styling to enhance the visual appeal.
+
+## Website Preview
+
+[AI_GPT-3](https://ibb.co/CHVzWXN)
+
+## Getting Started
+
+Simply visit the [AI_GPT_FRONT_END_ONLY Website](https://ubiquitous-torte-7f8e0a.netlify.app/) to start interacting with the AI_GPT model.
+
+## Contributing
+
+We welcome contributions! If you have suggestions or find any issues, please open an issue or create a pull request.
+
+## License
+
+This project is available under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
+
+Enjoy exploring AI_GPT! 🚀✨
