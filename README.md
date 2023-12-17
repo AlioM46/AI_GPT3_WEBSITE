@@ -4,7 +4,7 @@ Welcome to the AI_GPT-3 website repository! This project is a static website bui
 
 ## Website URL
 
-The website is hosted at: [AI_GPT_FRONT_END_ONLY Website](https://ubiquitous-torte-7f8e0a.netlify.app/)
+The website is hosted at: (https://ubiquitous-torte-7f8e0a.netlify.app/)
 
 ## Overview
 
