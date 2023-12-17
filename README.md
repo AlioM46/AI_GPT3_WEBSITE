@@ -1,6 +1,6 @@
-![image](https://github.com/AlioM46/AI_GPT3_WEBSITE/assets/139516637/81210799-16de-45d9-a943-315f0c138cf5)# AI_GPT_FRONT_END_ONLY Website
+![image](https://github.com/AlioM46/AI_GPT3_WEBSITE/assets/139516637/81210799-16de-45d9-a943-315f0c138cf5)
 
-Welcome to the AI_GPT_FRONT_END_ONLY website repository! This project is a static website built for the AI_GPT application with a focus on the frontend. The website provides a user interface for interacting with the AI_GPT model.
+Welcome to the AI_GPT-3 website repository! This project is a static website built for the AI_GPT application with a focus on the frontend. The website provides a user interface for interacting with the AI_GPT model.
 
 ## Website URL
 
@@ -20,20 +20,8 @@ This static website serves as the user interface for the AI_GPT application. It 
 - **REACT:** The structure of the website.
 - **CSS:** Styling to enhance the visual appeal.
 
-## Website Preview
-
-[AI_GPT-3](https://ibb.co/CHVzWXN)
-
-## Getting Started
-
-Simply visit the [AI_GPT_FRONT_END_ONLY Website](https://ubiquitous-torte-7f8e0a.netlify.app/) to start interacting with the AI_GPT model.
-
 ## Contributing
 
 We welcome contributions! If you have suggestions or find any issues, please open an issue or create a pull request.
-
-## License
-
-This project is available under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
 
 Enjoy exploring AI_GPT! 🚀✨
